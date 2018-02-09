@@ -1,5 +1,5 @@
 ---
 layout: home
 title: Home
-summary: This is some cool stuffs
+summary: Hashgraph is a groundbreaking new distributed ledger technology.
 ---
