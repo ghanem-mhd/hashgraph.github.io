@@ -47,6 +47,10 @@ h2 {
   }
 }
 
+.emph {
+  color: darken($light, 50%);
+}
+
 #logo {
   font-size: 20px;
   font-weight: 500;
