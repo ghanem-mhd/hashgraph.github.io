@@ -3,18 +3,7 @@ body {
   font-family: $default-font;
   font-weight: 400;
   font-size: 12px/14px;
-  color: $light;
-}
-
-h2 {
-  font-size: 3em;
-  font-weight: 200;
-  margin-bottom: 10px;
-}
-h3 {
-  font-size: 2em;
-  font-weight: 200;
-  margin-top: 0px;
+  color: $primary;
 }
 
 .btn {
@@ -37,31 +26,31 @@ h3 {
 }
 
 .gray {
-  color: $light;
-  border-color: $light;
+  color: lighten($primary, 40%);
+  border-color: lighten($primary,40%);
   &:active, &:visited, &:focus {
-    color: $light;
+    color: lighten($primary,40%);
   }
   &:hover {
-    color: darken($light, 50%);
-    border-color: darken($light, 50%);
+    color: $primary;
+    border-color: $primary;
   }
 }
 
 .orange {
-  color: $orange;
-  border-color: $orange;
+  color: $secondary;
+  border-color: $secondary;
   &:active, &:visited, &:focus {
-    color: $orange;
+    color: $secondary;
   }
   &:hover {
-    color: darken($orange, 20%);
-    border-color: darken($orange, 20%);
+    color: darken($secondary, 20%);
+    border-color: darken($secondary, 20%);
   }
 }
 
 .emph {
-  color: $orange;
+  color: $secondary;
 }
 
 #logo {
@@ -70,10 +59,10 @@ h3 {
   line-height: 20px;
   
   div:first-child {
-    color: darken($light, 50%);
+    color: $primary;
   }
   div:nth-child(2) {
-    color: $light;
+    color: $tertiary;
   }
 
   a {
@@ -83,5 +72,16 @@ h3 {
 
 #home {
   padding: 100px 0;
-  color: #1c3359;
+
+  h2 {
+    font-size: 3em;
+    font-weight: 200;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 0px;
+    color: $tertiary;
+  }
 }
