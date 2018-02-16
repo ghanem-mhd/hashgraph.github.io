@@ -10,4 +10,6 @@ and documentation are resources Hashgraph Developers provides.
 
 ## License
 
-While this website is open source, the hashgraph aglorithm is protected by patent and the Swirlds SDK is available to developers according to the Swirlds [Alpha Version End User License Agreement](https://www.swirlds.com/download/).
+This website is subject to [LICENSE]().
+
+The hashgraph aglorithm is protected by patent and the Swirlds SDK is subject to the Swirlds [Alpha Version End User License Agreement](https://www.swirlds.com/download/).
