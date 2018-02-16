@@ -1,0 +1,22 @@
+- title: Getting Started
+  docs:
+  - home
+  - quickstart
+  - installation
+- title: Principles
+  docs:
+  - overview
+  - gossip-about-gossip
+  - architecture
+- title: References
+  docs:
+  - swirldsmain
+  - swirldsstate
+  - platform
+- title: Papers
+  docs:
+  - whitepaper
+  - how-it-works
+  - hashgraph-overview
+  - sybil-attacks
+  - ddb
