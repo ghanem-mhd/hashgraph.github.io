@@ -104,3 +104,46 @@ body {
     color: $tertiary;
   }
 }
+
+.docs {
+  display: flex;
+  margin: 50px 0 100px;
+  font-weight: 200;
+
+  doc {
+    font-size: 1.2em;
+
+    h2 {
+      margin-top: 0px;
+    }
+  }
+
+  nav {
+    width: 30%;
+    max-width: 250px;
+    padding-right: 40px;
+    .nav-section {
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+    h4 {
+      margin-bottom: 10px;
+      margin-top: 0;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 20px;
+      li {
+        padding: 5px 0;
+      }
+    }
+    a {
+      text-decoration: none;
+      color: #333;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

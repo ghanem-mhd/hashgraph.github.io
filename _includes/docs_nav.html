@@ -1,0 +1,6 @@
+{% for section in site.data.docs %}
+<div class="nav-section">
+    <h4>{{ section.title }}</h4>
+    {% include docs_nav_ul.html items=section.docs %}
+</div>
+{% endfor %}
