@@ -4,14 +4,26 @@
     {% include head.html %}
 </head>
 <body>
-    <header>
-        {% include header.html %}
-    </header>
-    <div class="content">
-        {{content}}
-    </div>
-    <footer>
+  {% include header.html %}
+
+  <div class="grid">
+    <div class="col col--1-of-16 is-empty big-only"></div>
+    <div class="col col--4-of-16">
+      <div class="subnav">
+        {% if page.layout == "docs" %}
+          {% include docs_nav.html %}
+        {% endif %}
         {% include footer.html %}
-    </footer>
+      </div>
+    </div>
+    <div class="col col--11-of-16">
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+  {% if page.layout == "home" %}
+  <script src="/assets/js/typing.js"></script>
+  {% endif %}
 </body>
 </html>

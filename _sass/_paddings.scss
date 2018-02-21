@@ -1,0 +1,128 @@
+@mixin padding($target, $num, $col) {
+  @if $target == t {
+    padding-top: $num / $col * 100%;
+  }
+  @if $target == r {
+    padding-right: $num / $col * 100%;
+  }
+  @if $target == b {
+    padding-bottom: $num / $col * 100%;
+  }
+  @if $target == l {
+    padding-left: $num / $col * 100%;
+  }
+  @if $target == "*" {
+    padding: $num / $col * 100%;
+  }
+}
+
+.pt-1c {
+  @include padding("t", 1, 8);
+}
+
+.pr-1c {
+  @include padding("r", 1, 8);
+}
+
+.pl-1c {
+  @include padding("l", 1, 8);
+}
+
+.pb-1c {
+  @include padding("b", 1, 8);
+}
+
+.pa-1c {
+  @include padding("*", 1, 8);
+}
+
+.pt-2c {
+  @include padding("t", 2, 8);
+}
+
+.pr-2c {
+  @include padding("r", 2, 8);
+}
+
+.pl-2c {
+  @include padding("l", 2, 8);
+}
+
+.pb-2c {
+  @include padding("b", 2, 8);
+}
+
+.pa-2c {
+  @include padding("*", 2, 8);
+}
+
+.pt-3c {
+  @include padding("t", 3, 8);
+}
+
+.pr-3c {
+  @include padding("r", 3, 8);
+}
+
+.pl-3c {
+  @include padding("l", 3, 8);
+}
+
+.pb-3c {
+  @include padding("b", 3, 8);
+}
+
+.pa-3c {
+  @include padding("*", 3, 8);
+}
+
+@include breakpoint(big) {
+  .pt-1c--b {
+    @include padding("t", 1, 16);
+  }
+  .pr-1c--b {
+    @include padding("r", 1, 16);
+  }
+  .pl-0c--b {
+    @include padding("l", 0, 16);
+  }
+  .pb-1c--b {
+    @include padding("b", 1, 16);
+  }
+  .pl-1c--b {
+    @include padding("l", 1, 16);
+  }
+  .pa-1c--b {
+    @include padding("*", 1, 16);
+  }
+  .pt-2c--b {
+    @include padding("t", 2, 16);
+  }
+  .pr-2c--b {
+    @include padding("r", 2, 16);
+  }
+  .pb-2c--b {
+    @include padding("b", 2, 16);
+  }
+  .pl-2c--b {
+    @include padding("l", 2, 16);
+  }
+  .pa-2c--b {
+    @include padding("*", 2, 16);
+  }
+  .pt-3c--b {
+    @include padding("t", 3, 16);
+  }
+  .pr-3c--b {
+    @include padding("r", 3, 16);
+  }
+  .pb-3c--b {
+    @include padding("b", 3, 16);
+  }
+  .pl-3c--b {
+    @include padding("l", 3, 16);
+  }
+  .pa-3c--b {
+    @include padding("*", 3, 16);
+  }
+}

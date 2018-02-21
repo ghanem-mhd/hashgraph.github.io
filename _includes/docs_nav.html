@@ -1,6 +1,12 @@
 {% for section in site.data.docs %}
-<div class="nav-section">
-    <h4>{{ section.title }}</h4>
-    {% include docs_nav_ul.html items=section.docs %}
-</div>
+  <ul>
+    <li><h4>{{ section.title }}</h4></li>
+    {% for item in section.docs %}
+      {% assign item_url = item | prepend:"/docs/" | append:"/" %}
+      {% assign p = site.docs | where:"url", item_url | first %}
+      <li class="{% if item_url == page.url %}current{% endif %}">
+          <a href="{{ p.url }}">{{ p.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 {% endfor %}

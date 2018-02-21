@@ -1,0 +1,51 @@
+.Nav > .header {
+  background-color: $color-white;
+  height: 80px;
+  z-index: 100;
+  > .symbol {
+    display: block;
+    cursor: pointer;
+    svg {
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      top: 25px;
+      display: block;
+      width: 30px;
+      height: 30px;
+      .circle {
+        fill: $color-dark-grey;
+      }
+      .h {
+        fill: $color-off-white;
+      }
+    }
+  }
+
+  > .logo {
+    display: block;
+    width: 250px;
+    text-decoration: none;
+    line-height: 80px;
+    cursor: pointer;
+    .tm {
+      display: inline-block;
+      font-size: 0.7em;
+      position: relative;
+      top: -3px;
+    }
+    > .hedera {
+      color: $color-dark-grey;
+    }
+    .hashgraph {
+      color: $color-grey;
+    }
+    > .symbol {
+      display: inline-block;
+      position: relative;
+      left: 15px;
+      top: 15px;
+      margin-right: 35px;
+    }
+  }
+}

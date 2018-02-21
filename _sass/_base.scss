@@ -1,25 +1,11 @@
 body {
+  background-color: $color-off-white;
   margin: 0;
   padding: 0;
   font-family: $default-font;
   font-weight: 400;
   font-size: 12px/14px;
-  color: $primary;
-}
-
-header {
-  padding: 20px 0;
-  border-bottom: solid 1px #efefef;
-}
-
-footer {
-  width: 100%;
-  background-color: rgb(248, 248, 248);
-  padding: 20px 0;
-}
-
-.content {
-  margin: 0 100px;
+  color: $color-dark-grey;
 }
 
 .btn {
@@ -42,124 +28,51 @@ footer {
 }
 
 .gray {
-  color: lighten($primary, 40%);
-  border-color: lighten($primary,40%);
-  &:active, &:visited, &:focus {
-    color: lighten($primary,40%);
+  color: lighten($color-dark-grey, 40%);
+  border-color: lighten($color-dark-grey, 40%);
+  &:active,
+  &:visited,
+  &:focus {
+    color: lighten($color-dark-grey, 40%);
   }
   &:hover {
-    color: $primary;
-    border-color: $primary;
+    color: $color-dark-grey;
+    border-color: $color-dark-grey;
   }
 }
 
 .orange {
-  color: $secondary;
-  border-color: $secondary;
-  &:active, &:visited, &:focus {
-    color: $secondary;
+  color: $color-grey;
+  border-color: $color-grey;
+  &:active,
+  &:visited,
+  &:focus {
+    color: $color-grey;
   }
   &:hover {
-    color: darken($secondary, 20%);
-    border-color: darken($secondary, 20%);
+    color: darken($color-grey, 20%);
+    border-color: darken($color-grey, 20%);
   }
 }
 
 .emph {
-  color: $secondary;
+  color: $color-grey;
 }
 
-.footer-block {
-  p {
-    margin: 0px;
+.content {
+  margin-top: 80px;
+  padding: 20px;
+  @include breakpoint(big) {
+    padding: 0;
   }
-  ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    font-weight: 200;
-  }
-  a {
-    text-decoration: none;
-    color: $primary;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
-#logo {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 20px;
-  
-  div:first-child {
-    color: $primary;
-  }
-  div:nth-child(2) {
-    color: $tertiary;
-  }
-
-  a {
-    text-decoration: none;
-  }
-}
-
-#home {
-  padding: 100px 0;
-
   h2 {
-    font-size: 3em;
-    font-weight: 200;
-    margin-bottom: 10px;
-  }
-  h3 {
-    font-size: 2em;
-    font-weight: 200;
-    margin-top: 0px;
-    color: $tertiary;
-  }
-}
-
-#docs {
-  display: flex;
-  margin: 50px 0;
-  font-weight: 200;
-
-  #doc {
-    font-size: 1.2em;
-
-    h2 {
-      margin-top: 0px;
+    color: $color-grey;
+    font-size: 26px;
+    line-height: 30px;
+    @include breakpoint(big) {
+      font-size: 45px;
+      line-height: 60px;
     }
-  }
-
-  #nav {
-    width: 30%;
-    max-width: 250px;
-    padding-right: 40px;
-    .nav-section {
-      padding-bottom: 10px;
-      margin-bottom: 10px;
-    }
-    h4 {
-      margin-bottom: 10px;
-      margin-top: 0;
-    }
-    ul {
-      list-style: none;
-      margin: 0;
-      padding-left: 20px;
-      li {
-        padding: 5px 0;
-      }
-    }
-    a {
-      text-decoration: none;
-      color: #333;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
+    font-weight: 300;
   }
 }

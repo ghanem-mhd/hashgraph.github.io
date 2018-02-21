@@ -2,5 +2,13 @@
 ---
 @import 'fonts';
 @import 'variables';
+@import 'mixins/_breakpoints';
+@import 'mixins/_transition';
+@import 'paddings';
+@import 'grid';
+@import 'nav';
+@import 'subnav';
+@import 'type-sizes';
 @import 'base';
-@import 'icomoon';
+@import 'btn';
+@import 'home';

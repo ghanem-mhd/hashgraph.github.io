@@ -1,0 +1,52 @@
+.Btn {
+  display: inline-block;
+  border: 1px solid white;
+  height: 30px;
+  border-radius: 15px;
+  padding: 0 20px;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1.33px;
+  line-height: 28px;
+  cursor: pointer;
+  outline: none;
+  font-family: $font-sans;
+  @include transition(background-color 0.1s ease-out);
+}
+
+.Btn.is-white {
+  border-color: $color-white;
+  color: $color-white;
+  background-color: rgba($color-white, 0);
+  &:hover {
+    background-color: rgba($color-white, 1);
+    color: $color-dark-grey;
+  }
+}
+
+.Btn.is-black {
+  border-color: $color-black;
+  color: $color-black;
+  background-color: rgba($color-black, 0);
+  &:hover {
+    background-color: rgba($color-black, 1);
+    color: $color-white;
+  }
+}
+
+.Btn.is-grey {
+  border-color: $color-grey;
+  color: $color-grey;
+  background-color: rgba($color-grey, 0);
+  &:hover {
+    background-color: rgba($color-grey, 1);
+    color: $color-white;
+  }
+}
+
+.Btn.is-full {
+  display: block;
+  width: 100%;
+}
