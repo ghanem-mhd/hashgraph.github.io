@@ -8,25 +8,6 @@ body {
   color: $color-dark-grey;
 }
 
-.btn {
-  -webkit-border-radius: 50;
-  -moz-border-radius: 50;
-  border-radius: 50px;
-  font-size: 2em;
-  font-weight: 200;
-  padding: 20px 30px;
-  margin: 30px 30px 0 0;
-  text-decoration: none;
-  display: inline-block;
-  border: solid 1px;
-  text-align: center;
-
-  .ico {
-    margin-left: 0.5em;
-    font-size: 1em;
-  }
-}
-
 .gray {
   color: lighten($color-dark-grey, 40%);
   border-color: lighten($color-dark-grey, 40%);
