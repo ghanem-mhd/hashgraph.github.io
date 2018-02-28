@@ -1,13 +1,14 @@
 - title: Getting Started
   docs:
-  - home
   - quickstart
   - installation
+  - your-first-app
 - title: Principles
   docs:
   - overview
-  - gossip-about-gossip
   - architecture
+  - gossip-about-gossip
+  - virtual-voting
 - title: References
   docs:
   - swirldsmain
