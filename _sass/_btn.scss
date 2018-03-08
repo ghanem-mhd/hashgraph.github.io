@@ -17,6 +17,16 @@
   @include transition(background-color 0.1s ease-out);
 }
 
+.Btn.is-big {
+  @include size--s;
+  height: 64px;
+  line-height: 62px !important;
+  text-transform: none;
+  letter-spacing: 0;
+  border-radius: 32px;
+  padding: 0 32px;
+}
+
 .Btn.is-white {
   border-color: $color-white;
   color: $color-white;
@@ -79,5 +89,25 @@
   &:hover {
     background-color: rgba($color-purple, 0);
     color: $color-purple;
+  }
+}
+
+.Btn.is-grey {
+  border-color: $color-grey;
+  color: $color-white;
+  background-color: rgba($color-grey, 0);
+  &:hover {
+    background-color: rgba($color-grey, 1);
+    color: $color-white;
+  }
+}
+
+.Btn.is-orange-border {
+  border-color: $color-orange;
+  color: $color-orange;
+  background-color: rgba($color-orange, 0);
+  &:hover {
+    background-color: rgba($color-orange, 1);
+    color: $color-white;
   }
 }

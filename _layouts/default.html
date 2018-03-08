@@ -10,7 +10,7 @@
     <div class="col col--1-of-16 is-empty big-only"></div>
     <div class="subnav-edge"></div>
     <div class="col col--3-of-16">
-      <div class="subnav size--xs">
+      <div class="subnav size--xs {% if page.layout == "home" %}is-white{% endif %}">
         {% if page.layout == "docs" %}
           {% include docs_nav.html %}
         {% endif %}
@@ -23,8 +23,5 @@
       </div>
     </div>
   </div>
-  {% if page.layout == "home" %}
-  <script src="/assets/js/typing.js"></script>
-  {% endif %}
 </body>
 </html>

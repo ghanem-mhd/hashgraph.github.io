@@ -2,6 +2,8 @@
   @include size--xs;
   max-width: 200px;
   padding: 20px;
+  z-index: 10;
+  position: relative;
   @include breakpoint(big) {
     margin-top: 80px;
     padding: 0;
@@ -32,13 +34,26 @@
   .current a {
     color: $color-orange;
   }
+  &.is-white {
+    h4 {
+      color: $color-white;
+    }
+    a {
+      color: $color-light-grey;
+    }
+  }
 }
 
 .subnav-edge {
-  position: fixed;
-  top: 80px;
-  bottom: 0;
-  width: 1px;
-  background-color: rgba($color-light-grey, 0.3);
-  left: 3 / 16 * 100%;
+  display: none;
+  @include big {
+    position: fixed;
+    top: 0px;
+    pointer-events: none;
+    z-index: 14;
+    bottom: 0;
+    width: 1px;
+    background-color: rgba($color-light-grey, 0.3);
+    left: 3 / 16 * 100%;
+  }
 }

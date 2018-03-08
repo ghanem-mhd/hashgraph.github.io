@@ -1,4 +1,15 @@
+.home-bg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 80px;
+  bottom: 0;
+  background-color: $color-black;
+}
+
 .home {
+  position: relative;
+  color: $color-white;
   h2,
   h3 {
     font-weight: 300;
