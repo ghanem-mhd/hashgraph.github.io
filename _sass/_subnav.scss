@@ -1,6 +1,5 @@
 .subnav {
-  font-size: 16px;
-  line-height: 28px;
+  @include size--xs;
   max-width: 200px;
   padding: 20px;
   @include breakpoint(big) {
@@ -40,6 +39,6 @@
   top: 80px;
   bottom: 0;
   width: 1px;
-  background-color: rgba($color-light-grey, 0.4);
+  background-color: rgba($color-light-grey, 0.3);
   left: 3 / 16 * 100%;
 }

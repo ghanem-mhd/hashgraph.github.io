@@ -4,6 +4,11 @@
       @content;
     }
   }
+  @if $point == wide {
+    @media (min-width: 1400px) {
+      @content;
+    }
+  }
   // @if $point == retina {
   //   @media (min--moz-device-pixel-ratio: 1.3),
   //     (-o-min-device-pixel-ratio: 2.6/2),
@@ -29,5 +34,11 @@
   display: none !important;
   @include breakpoint(big) {
     display: block !important;
+  }
+}
+
+@mixin big {
+  @media (min-width: 1024px) {
+    @content;
   }
 }

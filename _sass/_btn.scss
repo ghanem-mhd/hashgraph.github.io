@@ -10,6 +10,7 @@
   text-transform: uppercase;
   letter-spacing: 1.33px;
   line-height: 28px;
+  text-align: center;
   cursor: pointer;
   outline: none;
   font-family: $font-sans;
@@ -36,17 +37,47 @@
   }
 }
 
-.Btn.is-grey {
-  border-color: $color-grey;
-  color: $color-grey;
-  background-color: rgba($color-grey, 0);
-  &:hover {
-    background-color: rgba($color-grey, 1);
-    color: $color-white;
-  }
-}
-
 .Btn.is-full {
   display: block;
   width: 100%;
+}
+
+.Btn.is-blue {
+  border-color: $color-blue;
+  color: $color-white;
+  background-color: rgba($color-blue, 1);
+  &:hover {
+    background-color: rgba($color-blue, 0);
+    color: $color-blue;
+  }
+}
+
+.Btn.is-red {
+  border-color: $color-red;
+  color: $color-white;
+  background-color: rgba($color-red, 1);
+  &:hover {
+    background-color: rgba($color-red, 0);
+    color: $color-red;
+  }
+}
+
+.Btn.is-green {
+  border-color: $color-green;
+  color: $color-white;
+  background-color: rgba($color-green, 1);
+  &:hover {
+    background-color: rgba($color-green, 0);
+    color: $color-green;
+  }
+}
+
+.Btn.is-purple {
+  border-color: $color-purple;
+  color: $color-white;
+  background-color: rgba($color-purple, 1);
+  &:hover {
+    background-color: rgba($color-purple, 0);
+    color: $color-purple;
+  }
 }

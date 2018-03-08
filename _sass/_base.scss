@@ -46,14 +46,4 @@ body {
   @include breakpoint(big) {
     padding: 0;
   }
-  h2 {
-    color: $color-grey;
-    font-size: 26px;
-    line-height: 30px;
-    @include breakpoint(big) {
-      font-size: 45px;
-      line-height: 60px;
-    }
-    font-weight: 300;
-  }
 }

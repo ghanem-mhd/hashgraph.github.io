@@ -1,12 +1,22 @@
 .content {
   line-height: 2;
-  max-width: 600px;
+  max-width: 720px;
   padding-bottom: 200px;
+  @include size--xs;
+  > *:first-child {
+    margin-top: 0;
+  }
+  h2 {
+    color: $color-orange;
+    @include size--m;
+    font-weight: 300;
+  }
   a {
     color: $color-black;
   }
   h3 {
     margin-top: 3em;
+    font-weight: 500;
   }
   pre,
   code {
@@ -15,8 +25,9 @@
   }
 
   code {
-    background-color: darken($color-off-white, 3);
+    background-color: darken($color-off-white, 10);
     padding: 0.4em;
-    border-radius: 0.2em;
+    border-radius: 3px;
+    color: $color-black;
   }
 }

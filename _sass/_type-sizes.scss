@@ -1,4 +1,4 @@
-.size--xl {
+@mixin size--xl {
   font-size: 50px;
   line-height: 60px;
   -webkit-font-smoothing: antialiased;
@@ -9,7 +9,12 @@
     line-height: 96px;
   }
 }
-.size--l {
+
+.size--xl {
+  @include size--xl;
+}
+
+@mixin size--l {
   font-size: 26px;
   line-height: 30px;
   -webkit-font-smoothing: antialiased;
@@ -20,7 +25,12 @@
     line-height: 50px;
   }
 }
-.size--m {
+
+.size--l {
+  @include size--l;
+}
+
+@mixin size--m {
   font-size: 18px;
   line-height: 26px;
   -webkit-font-smoothing: antialiased;
@@ -29,6 +39,10 @@
     font-size: 26px;
     line-height: 36px;
   }
+}
+
+.size--m {
+  @include size--m;
 }
 
 @mixin size--s {
@@ -46,10 +60,14 @@
   @include size--s;
 }
 
-.size--xs {
+@mixin size--xs {
   font-size: 13px;
   line-height: 25px;
   letter-spacing: 0.015em;
+}
+
+.size--xs {
+  @include size--xs;
 }
 
 @mixin small-caps {
