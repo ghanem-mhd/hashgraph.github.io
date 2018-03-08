@@ -1,6 +1,9 @@
 .size--xl {
   font-size: 50px;
   line-height: 60px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.015em;
   @include breakpoint(big) {
     font-size: 96px;
     line-height: 96px;
@@ -9,29 +12,55 @@
 .size--l {
   font-size: 26px;
   line-height: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.015em;
   @include breakpoint(big) {
-    font-size: 45px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 50px;
   }
 }
 .size--m {
   font-size: 18px;
   line-height: 26px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   @include breakpoint(big) {
     font-size: 26px;
     line-height: 36px;
   }
 }
 
-.size--xs {
-  font-size: 12px;
+@mixin size--s {
+  font-size: 14px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @include breakpoint(big) {
+    font-size: 15px;
+    line-height: 2;
+  }
 }
 
-.small-caps {
+.size--s {
+  @include size--s;
+}
+
+.size--xs {
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 0.015em;
+}
+
+@mixin small-caps {
   text-transform: uppercase;
   font-size: 10px;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+}
+
+.small-caps {
+  @include small-caps;
 }
 
 .light {

@@ -1,9 +1,22 @@
 .content {
   line-height: 2;
+  max-width: 600px;
+  padding-bottom: 200px;
   a {
     color: $color-black;
   }
   h3 {
     margin-top: 3em;
+  }
+  pre,
+  code {
+    font-family: $font-mono;
+    font-size: 0.9em;
+  }
+
+  code {
+    background-color: darken($color-off-white, 3);
+    padding: 0.4em;
+    border-radius: 0.2em;
   }
 }

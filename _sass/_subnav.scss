@@ -1,7 +1,7 @@
 .subnav {
   font-size: 16px;
   line-height: 28px;
-
+  max-width: 200px;
   padding: 20px;
   @include breakpoint(big) {
     margin-top: 80px;
@@ -10,21 +10,36 @@
   ul {
     margin: 0;
     padding: 0;
-    margin-bottom: 40px;
     > li {
       list-style-type: none;
+      margin-left: 14px;
+      line-height: 1.4;
+      margin-bottom: 0.8em;
     }
   }
   h4 {
-    color: $color-grey;
+    color: $color-black;
     margin: 0;
-    font-weight: 400;
+    font-weight: 500;
+    margin-left: -14px;
   }
   a {
     text-decoration: none;
-    color: $color-dark-grey;
+    color: $color-mid-grey;
     &:hover {
       text-decoration: underline;
     }
   }
+  .current a {
+    color: $color-orange;
+  }
+}
+
+.subnav-edge {
+  position: fixed;
+  top: 80px;
+  bottom: 0;
+  width: 1px;
+  background-color: rgba($color-light-grey, 0.4);
+  left: 3 / 16 * 100%;
 }
