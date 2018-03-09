@@ -94,10 +94,20 @@
 
 .Btn.is-grey {
   border-color: $color-grey;
-  color: $color-white;
+  color: $color-grey;
   background-color: rgba($color-grey, 0);
   &:hover {
     background-color: rgba($color-grey, 1);
+    color: $color-white;
+  }
+}
+
+.Btn.is-orange {
+  border-color: $color-orange;
+  color: $color-orange;
+  background-color: rgba($color-orange, 0);
+  &:hover {
+    background-color: rgba($color-orange, 1);
     color: $color-white;
   }
 }

@@ -5,6 +5,10 @@
   top: 80px;
   bottom: 0;
   background-color: $color-black;
+  background-image: url("/assets/images/homepage-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .home {

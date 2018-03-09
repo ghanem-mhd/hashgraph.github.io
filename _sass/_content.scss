@@ -12,7 +12,7 @@
     font-weight: 300;
   }
   a {
-    color: $color-black;
+    color: $color-orange;
   }
   h3 {
     margin-top: 3em;
@@ -29,5 +29,10 @@
     padding: 0.4em;
     border-radius: 3px;
     color: $color-black;
+  }
+
+  hr {
+    border: 0;
+    border-bottom: 1px solid rgba($color-dark-grey, 0.12);
   }
 }
