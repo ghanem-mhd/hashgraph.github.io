@@ -6,23 +6,16 @@
 <body>
   {% include header.html %}
 
-  <div class="grid">
-    <div class="col col--1-of-16 is-empty big-only"></div>
-    <div class="subnav-edge"></div>
-    <div class="col col--3-of-16">
-      <div class="subnav size--xs {% if page.layout == "home" %}is-white{% endif %}">
-        {% if page.layout == "docs" %}
-          {% include docs_nav.html %}
-        {% endif %}
-        {% include footer.html %}
-      </div>
+  <div class="all">
+
+    {% include subnav.html %}
+    
+    <div class="content">
+      {{ content }}
     </div>
-    <div class="col col--10-of-16">
-      <div class="content">
-        {{ content }}
-      </div>
-    </div>
+
   </div>
-  <script src="/assets/js/bundle.js"></script>
+
+  {% include js.html %}
 </body>
 </html>

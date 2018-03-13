@@ -14,3 +14,7 @@
 @import 'base';
 @import 'btn';
 @import 'home';
+
+body.subnav-is-open{
+  overflow: hidden;
+}

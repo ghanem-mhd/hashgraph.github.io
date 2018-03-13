@@ -14,6 +14,10 @@
 .home {
   position: relative;
   color: $color-white;
+  > * {
+    margin-top: 0;
+    padding-top: 0;
+  }
   h2,
   h3 {
     font-weight: 300;
@@ -21,5 +25,15 @@
   h2 {
     margin-top: 0;
     padding-top: 0;
+  }
+  .Btn {
+    display: block;
+    width: calc(100% - 20%);
+  }
+  @include big {
+    .Btn {
+      display: inline-block;
+      width: auto;
+    }
   }
 }

@@ -1,0 +1,31 @@
+<div class="subnav-edge"></div>
+<div class="data-sticky-container subnav-container">
+  <div class="subnav size--xs {% if page.layout == "home" %}is-white{% endif %}" id="subnav" data-sticky-wrap="true">
+    <div class="header">
+      <div class="left">
+        <span class="location size--m">{{ page.title }}</span>
+      </div>
+      <div class="right">
+        <a class="js-hamburger hamburger"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <path class="circle" d="M20,0A20,20,0,1,0,40,20,20,20,0,0,0,20,0"/><polygon class="hamburger" points="28.75 28.27 28.75 25.73 23.36 25.73 16.52 25.73 11.25 25.73 11.25 28.27 28.75 28.27"/>
+  <polygon class="hamburger" points="11.25 14.27 28.75 14.27 28.75 11.73 23.36 11.73 16.52 11.73 11.25 11.73 11.25 14.27"/><polygon class="hamburger" points="28.75 21.27 28.75 18.73 23.36 18.73 16.52 18.73 11.25 18.73 11.25 21.27 28.75 21.27"/></svg></a>
+
+  <a class="js-close close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <path class="circle" d="M20,0A20,20,0,1,0,40,20,20,20,0,0,0,20,0"/>
+  <polygon class="x" points="21.8 20 27.09 25.29 25.29 27.09 20 21.8 14.71 27.09 12.91 25.29 16.64 21.56 18.2 20 12.91 14.71 14.71 12.91 20 18.2 21.47 16.73 25.29 12.91 27.09 14.71 21.8 20"/>
+</svg>
+</a>
+      </div>
+    </div>
+    <div class="contents">
+      <div class="hh-link">
+        <a class="Btn is-white">Visit hederahashgraph.com</a>
+      </div>
+
+      {% if page.layout == "docs" %}
+        {% include docs_nav.html %}
+      {% endif %}
+      {% include footer.html %}
+    </div>
+  </div>
+</div>

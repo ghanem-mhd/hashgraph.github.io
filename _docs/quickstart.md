@@ -22,4 +22,4 @@ Finally, let's get down to business. There are a few key things to remember when
 3. The platform will handle some major functions for you: gossip (propagation), consensus, and ordering. This is not an exaustive list of functions, just an overview of the core responsibilites of the hashgraph algorithm. Outside of those functions you have the flexibility to prepare the input and handle the output as you see fit.
 4. The community is smart and friendly. As you build your proof-of-concept, do not hesitate to ask questions on our [Q&A platform](https://discourse.hashgraph.com) or in our [chat server](https://hashgraph.com/discord).
 
-[Next Step: Installation](/docs/installation){:.Btn.is-orange}
+[Next Step: Installation](/docs/installation){:.Btn.next}

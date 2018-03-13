@@ -1,16 +1,78 @@
 .subnav {
   @include size--xs;
-  max-width: 200px;
-  padding: 20px;
   z-index: 10;
   position: relative;
-  @include breakpoint(big) {
-    margin-top: 80px;
-    padding: 0;
+  height: 80px;
+  overflow: hidden;
+  background-color: $color-white;
+  @include big {
+    background-color: transparent;
+    height: auto;
+    padding-top: 80px;
+    border-bottom: 0;
+  }
+  > .contents {
+    display: none;
+    @include big {
+      display: block;
+    }
+  }
+  .close {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  > .header {
+    position: relative;
+    background-color: $color-dark-grey;
+    height: 80px;
+    @include big {
+      display: none;
+    }
+    > .left {
+      height: 80px;
+      position: relative;
+      > span {
+        position: absolute;
+        display: block;
+        line-height: 1.4;
+        @include vertically-center;
+        color: $color-white;
+        left: 6.25%;
+        right: 100px;
+      }
+    }
+    > .right {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      right: 0;
+      top: 0;
+      > a {
+        width: 30px;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 23px;
+        svg {
+          display: block;
+          width: 100%;
+        }
+        .circle {
+          fill: transparent;
+        }
+        .x,
+        .hamburger {
+          fill: $color-light-grey;
+        }
+      }
+    }
   }
   ul {
     margin: 0;
     padding: 0;
+    max-width: 220px;
     > li {
       list-style-type: none;
       margin-left: 14px;
@@ -32,7 +94,7 @@
     }
   }
   .current a {
-    color: $color-orange;
+    color: $color-orange !important;
   }
   &.is-white {
     h4 {
@@ -40,6 +102,42 @@
     }
     a {
       color: $color-light-grey;
+    }
+  }
+}
+
+.hh-link {
+  margin-bottom: 12.5%;
+  .Btn {
+    display: block;
+    width: calc(100% - 12.5%);
+  }
+  @include big {
+    display: none;
+  }
+}
+
+.subnav.is-open {
+  position: fixed;
+  height: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $color-dark-grey;
+  .hamburger {
+    display: none;
+  }
+  .close {
+    display: block;
+  }
+  > .contents {
+    display: block;
+    padding: 6.25%;
+    max-height: calc(100% - 100px);
+    overflow: auto;
+    > *:last-child {
+      padding-bottom: 50px;
     }
   }
 }
@@ -54,6 +152,6 @@
     bottom: 0;
     width: 1px;
     background-color: rgba($color-light-grey, 0.3);
-    left: 3 / 16 * 100%;
+    left: 4 / 16 * 100%;
   }
 }

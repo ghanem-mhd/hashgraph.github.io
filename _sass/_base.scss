@@ -39,11 +39,3 @@ body {
 .emph {
   color: $color-grey;
 }
-
-.content {
-  margin-top: 80px;
-  padding: 20px;
-  @include breakpoint(big) {
-    padding: 0;
-  }
-}

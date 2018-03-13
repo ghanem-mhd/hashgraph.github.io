@@ -51,7 +51,7 @@ permalink: /docs/swirldsstate/
 > ---
 
 > void **handleTransaction**(long id, boolean isConsensus, java.time.Instant timestamp,
-byte[] trans, **Address** address)
+> byte[] trans, **Address** address)
 
 > > _Given a transaction, update the state to reflect its effect_
 
@@ -86,6 +86,7 @@ byte[] trans, **Address** address)
 > Initialize everything to reflect the consensus state at the start of history, before any transactions have happened. When the Platform instantiates an object of an app's class implementing SwirldState, it will call the method init on that object exactly once, then call copyFrom zero or one times, then call handleTransaction for the first time.
 
 > ##### Parameters:
+>
 > * platform - the Platform that instantiated this SwirldState
 > * addressBook - the members and info about them
 
@@ -98,6 +99,7 @@ byte[] trans, **Address** address)
 > Return a deep copy of the the current address book.
 
 > ##### Returns:
+>
 > * a deep copy of the the current address book
 
 > ---
@@ -111,6 +113,7 @@ byte[] trans, **Address** address)
 > However, it is possible to write handleTransaction to perform some of its work by generating new threads (or using a thread pool), which will continue working after it returns. In that case, the copyFrom must be written such that it will read a state that reflects all the effects of all the transactions that were sent to handleTransaction prior to the call to copyFrom, and is not at all affected by later transactions.
 
 > ##### Parameters:
+>
 > * old - the state to copy
 
 > ---
@@ -118,7 +121,7 @@ byte[] trans, **Address** address)
 > #### handleTransaction
 
 > void **handleTransaction**(long id, boolean isConsensus, java.time.Instant timestamp,
-byte[] trans, **Address** address)
+> byte[] trans, **Address** address)
 
 > Given a transaction, update the state to reflect its effect. A given SwirldState object will see a sequence of transactions consisting of some number for which consensus is true, followed by the rest being false. The transactions for which it is true are sent in the consensus order. The rest are sent in an order that is the current best guess as to what the consensus will be. But that order is subject to change. A given SwirldState object will never see that order change. But a different SwirldState object may be instantiated by the Platform, and it may receive those transactions in a different order.
 
@@ -129,6 +132,7 @@ byte[] trans, **Address** address)
 > The state of this object must NEVER change except inside the methods init(), SwirldState.copyFrom(), FastCopyable.copyFrom(), and handleTransaction(). So it is good if handleTransaction changes some of the class variables and then returns. It is also OK if handleTransactions spawns a number of threads that change those variables, then waits until all those threads have ended, and then returns. It is even OK for it to create a pool of threads that continue to exist after handleTransaction returns, as long as it ensures that those threads have finished all their changes before it returns. But it is an error for handleTransaction to spawn a thread that will make changes after handleTransaction returns and before the next time handleTransaction is called. If handleTransaction does create threads that continue to exist after it returns (in a legal way), then it can stop those threads in the noMoreTransactions method.
 
 > ##### Parameters:
+>
 > * id - the ID number of the member who created this transaction
 > * isConsensus - is this transaction's timeCreated and position in history part of the consensus?
 > * timestamp - the consensus timestamp for when this transaction happened (or an estimate of it, if it hasn't reached consensus yet)
@@ -145,4 +149,4 @@ byte[] trans, **Address** address)
 
 ---
 
-Next Step: [Platform](/docs/platform)
+[Next Step: Platform](/docs/platform){:.Btn.next}

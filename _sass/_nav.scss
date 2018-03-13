@@ -22,33 +22,6 @@
     }
   }
 
-  > .logo {
-    display: block;
-    width: 250px;
-    text-decoration: none;
-    line-height: 80px;
-    cursor: pointer;
-    .tm {
-      display: inline-block;
-      font-size: 0.7em;
-      position: relative;
-      top: -3px;
-    }
-    > .hedera {
-      color: $color-dark-grey;
-    }
-    .hashgraph {
-      color: $color-grey;
-    }
-    > .symbol {
-      display: inline-block;
-      position: relative;
-      left: 15px;
-      top: 15px;
-      margin-right: 35px;
-    }
-  }
-
   .right {
     position: absolute;
     right: 20px;
@@ -56,6 +29,50 @@
     display: none;
     @include big {
       display: block;
+    }
+  }
+}
+
+.Nav .logo {
+  display: block;
+  cursor: pointer;
+  height: 80px;
+  text-decoration: none;
+  line-height: 76px;
+  font-size: 17px;
+  max-width: 300px;
+  > span {
+    display: inline-block;
+    position: relative;
+    top: -34px;
+  }
+  .hedera {
+    color: $color-dark-grey;
+  }
+  .hashgraph {
+    color: $color-grey;
+  }
+  > .symbol {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    @include big {
+      width: 6.25vw;
+    }
+  }
+  svg {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 25px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    .circle {
+      fill: $color-dark-grey;
+    }
+    .h {
+      fill: $color-off-white;
     }
   }
 }
