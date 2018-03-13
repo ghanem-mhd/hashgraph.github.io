@@ -3,21 +3,21 @@
   - quickstart
   - installation
   - your-first-app
-- title: Principles
-  docs:
-  - overview
-  - architecture
-  - gossip-about-gossip
-  - virtual-voting
+# - title: Principles
+#   docs:
+#   - overview
+#   - architecture
+#   - gossip-about-gossip
+#   - virtual-voting
 - title: References
   docs:
   - swirldsmain
   - swirldsstate
   - platform
-- title: Papers
-  docs:
-  - whitepaper
-  - how-it-works
-  - hashgraph-overview
-  - sybil-attacks
-  - ddb
+# - title: Papers
+#   docs:
+#   - whitepaper
+#   - how-it-works
+#   - hashgraph-overview
+#   - sybil-attacks
+#   - ddb

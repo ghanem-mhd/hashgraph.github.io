@@ -1,5 +1,5 @@
 {% for section in site.data.docs %}
-  <ul>
+  <ul class="docs-nav">
     <li><h4>{{ section.title }}</h4></li>
     {% for item in section.docs %}
       {% assign item_url = item | prepend:"/docs/" | append:"/" %}

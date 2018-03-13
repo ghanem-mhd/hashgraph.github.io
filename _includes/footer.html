@@ -1,5 +1,8 @@
 <ul class="footer size--xs">
+  {% if page.layout == "docs" %}
+  {% else %}
   <li><a href="/docs/quickstart/">Docs</a></li>
+  {% endif %}
   <li><a href="https://www.swirlds.com/download/">SDK</a></li>
   <li><a href="https://answers.hashgraph.com">Q&amp;A</a></li>
   <li><a href="https://hashgraph.com/discord">Chat</a></li>
