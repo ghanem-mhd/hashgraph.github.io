@@ -5,7 +5,6 @@ var Nav = document.getElementById("Nav");
 var sticky = new Sticky("#subnav");
 
 var toggleNav = function(event) {
-  console.log("toggleNav");
   if (Nav.classList.contains("is-open")) {
     Nav.classList.remove("is-open");
     Nav.classList.remove("is-white");
