@@ -1,8 +1,40 @@
-<div class="content">
-    <div id="logo">
-        <a href="/">
-            <div>Hashgraph</div>
-            <div>Developers</div>
-        </a>
+<div class="Nav" id="Nav">
+  <div class="header">
+
+    <a class="logo" href="/">
+      <div class="symbol">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+          <path d="M20 0a20 20 0 1 0 20 20A20 20 0 0 0 20 0" class="circle"/>
+          <path d="M28.13 28.65h-2.54v-5.4H14.41v5.4h-2.54V11.14h2.54v5.27h11.18v-5.27h2.54zm-13.6-7.42h11.18v-2.79H14.53z" class="h"/>
+        </svg>
+      </div>
+      <span class="hedera">Developers</span>
+    </a>
+
+    <div class="right">
+      <a class="hh Btn is-grey" href="https://hederahashgraph.com">Visit hederahashgraph.com</a>
+
+      <a class="js-hamburger hamburger"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+<path class="circle" d="M20,0A20,20,0,1,0,40,20,20,20,0,0,0,20,0"/><polygon class="hamburger" points="28.75 28.27 28.75 25.73 23.36 25.73 16.52 25.73 11.25 25.73 11.25 28.27 28.75 28.27"/>
+<polygon class="hamburger" points="11.25 14.27 28.75 14.27 28.75 11.73 23.36 11.73 16.52 11.73 11.25 11.73 11.25 14.27"/><polygon class="hamburger" points="28.75 21.27 28.75 18.73 23.36 18.73 16.52 18.73 11.25 18.73 11.25 21.27 28.75 21.27"/></svg></a>
+
+<a class="js-close close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+<path class="circle" d="M20,0A20,20,0,1,0,40,20,20,20,0,0,0,20,0"/>
+<polygon class="x" points="21.8 20 27.09 25.29 25.29 27.09 20 21.8 14.71 27.09 12.91 25.29 16.64 21.56 18.2 20 12.91 14.71 14.71 12.91 20 18.2 21.47 16.73 25.29 12.91 27.09 14.71 21.8 20"/>
+</svg>
+</a>
     </div>
+
+  </div>
+
+  <div class="items-mobile nav-items is-white">
+    <div class="hh-btn">
+      <a href="https://www.hederahashgraph.com/" class="Btn is-white is-full">Visit Hederahashgraph.com</a>
+    </div>
+    {% if page.layout == "docs" %}
+      {% include docs_nav.html %}
+    {% endif %}
+    {% include footer.html %}
+  </div>
+
 </div>

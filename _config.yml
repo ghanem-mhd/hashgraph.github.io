@@ -24,6 +24,7 @@ defaults:
     layout: docs
 sass:
   style: compressed
+  sass_dir: _sass
 exclude:
 - ".gitignore"
 - CNAME

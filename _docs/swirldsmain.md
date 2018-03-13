@@ -25,7 +25,7 @@ permalink: /docs/swirldsmain/
 
 > ---
 
-> **[SwirldState](/docs/swirldsstate)  newState**()
+> **[SwirldState](/docs/swirldsstate) newState**()
 
 > > _Instantiate and return a SwirldState object that corresponds to this SwirldMain object_
 
@@ -58,6 +58,7 @@ permalink: /docs/swirldsmain/
 > This should only be called by the Platform. It is passed a reference to the platform, so the SwirldMain will know who to call. (This is dependency injection).
 
 > ##### Parameters:
+>
 > * platform - the Platform that instantiated this SwirldMain
 > * selfId - the ID number for this member (myself)
 
@@ -67,9 +68,10 @@ permalink: /docs/swirldsmain/
 
 > default void **release**(**[Platform](/docs/platform)** platform, int id)
 
-> Close any windows not instantiated via Platform.create*. This method may be called on a thread that is not the Swing event thread.
+> Close any windows not instantiated via Platform.create\*. This method may be called on a thread that is not the Swing event thread.
 
 > ##### Parameters:
+>
 > * platform - the Platform that instantiated this SwirldMain
 > * id - the ID number for this member (myself)
 
@@ -82,6 +84,7 @@ permalink: /docs/swirldsmain/
 > This is where the app manages the screen and I/O, and creates transactions as needed. It should return when the user quits the app, but may also return earlier.
 
 > ##### Specified by:
+>
 > * run in interface java.lang.Runnable
 
 > ---
@@ -98,13 +101,14 @@ permalink: /docs/swirldsmain/
 
 > #### newState
 
-> **[SwirldState](/docs/swirldsstate)  newState**()
+> **[SwirldState](/docs/swirldsstate) newState**()
 
 > Instantiate and return a SwirldState object that corresponds to this SwirldMain object. Typically, if class ExampleMain implements SwirldMain, then newState will return an object of class ExampleMain.
 
 > ##### Returns:
+>
 > * the newly instantiated SwirldState object
 
 ---
 
-Next Step: [SwirldState](/docs/swirldsstate)
+[Next Step: SwirldState](/docs/swirldsstate){:.Btn.next}
