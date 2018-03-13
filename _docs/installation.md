@@ -24,7 +24,7 @@ permalink: /docs/installation/
 
 #### Running the SDK
 
-* Download the SDK from https://www.swirlds.com/download/
+* Download the SDK from [https://www.swirlds.com/download/](https://www.swirlds.com/download/)
 * Unzip the downloaded SDK zip file
 * Run the SDK using `java -jar swirlds.jar`
 
