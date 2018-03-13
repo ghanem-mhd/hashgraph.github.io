@@ -2,6 +2,7 @@
   background-color: $color-white;
   height: 80px;
   z-index: 100;
+  position: relative;
   > .symbol {
     display: block;
     cursor: pointer;
@@ -24,11 +25,47 @@
 
   .right {
     position: absolute;
-    right: 20px;
-    top: 20px;
-    display: none;
+    right: 0px;
+    top: 0px;
+    width: 80px;
+    height: 80px;
+    @include big {
+      width: auto;
+    }
+    > .hh {
+      display: none;
+      @include big {
+        display: block;
+        margin-top: 23px;
+        margin-right: 23px;
+      }
+    }
+    > a.hamburger,
+    > a.close {
+      width: 30px;
+      height: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 23px;
+      svg {
+        display: block;
+        width: 100%;
+      }
+      .circle {
+        fill: transparent;
+      }
+      .x,
+      .hamburger {
+        fill: $color-light-grey;
+      }
+    }
+
     @include big {
       display: block;
+      .close,
+      .hamburger {
+        display: none;
+      }
     }
   }
 }
@@ -73,6 +110,57 @@
     }
     .h {
       fill: $color-off-white;
+    }
+  }
+}
+
+.Nav {
+  > .items-mobile {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    top: 80px;
+    overflow: auto;
+    padding: 6.25%;
+    box-sizing: border-box;
+    bottom: 0;
+    background-color: $color-dark-grey;
+  }
+  .hh-btn {
+    width: calc(100% - 12.5%);
+    margin-bottom: 6.25%;
+  }
+  .close {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  &.is-open {
+    .header {
+      background-color: $color-dark-grey;
+    }
+    .symbol {
+      .circle {
+        fill: $color-off-white;
+      }
+      .h {
+        fill: $color-dark-grey;
+      }
+    }
+    .logo .hedera {
+      color: $color-white;
+    }
+    .close {
+      display: block;
+    }
+    .hamburger {
+      display: none;
+    }
+    > .items-mobile {
+      display: block;
     }
   }
 }
