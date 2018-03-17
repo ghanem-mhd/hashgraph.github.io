@@ -9,9 +9,15 @@ Hashgraph is the first asynchronouse byzantine fault tolerant (aBFT) consensus a
 
 ### What is the Swirlds Platform?
 
-The Swirlds platform is the official implementation of the hashgraph algorithm. It is maintained and licensed by Swirlds Inc. The Swirlds platform is included in the Swirlds SDK along with a number of example applications.
+The Swirlds platform is the official implementation of the hashgraph algorithm. It is maintained and licensed by Swirlds Inc. The Swirlds platform is included in the Swirlds SDK along with a number of example applications. Swirlds has also has licensed its technology as the platform for the Hedera hashgraph public ledger.  
 
-Upon agreeing to the End User License Agreement (EULA), you may use the SDK to build proofs-of-concept on the Swirlds platform. These projects may be developed for proof-of-concept permissioned network purposes only. To acquire a commercial license, you must contact [sales@swirlds.com](mailto:sales@swirlds.com).
+Upon agreeing to the End User License Agreement (EULA), you may use the SDK to build proofs-of-concept on the Swirlds platform. 
+
+**For permissioned network use-cases:** These projects may be developed for proof-of-concept network purposes only. To acquire a commercial license, you must contact [sales@swirlds.com](mailto:sales@swirlds.com).
+
+**For applications on the Hedera public ledger:** No license will be required to run an application on the Hedera hashgraph public ledger. Applications will make micropayments for API calls using the platform token.
+
+We will update the Swirlds EULA and provide a Hedera user agreement before the public ledger launches.  To avoid doubt: Private permissioned implementations will continue to require a commercial license from Swirlds, but developers will be free to deploy applications on the Hedera hashgraph public ledger without paying for a license.
 
 ### How do I get started?
 
