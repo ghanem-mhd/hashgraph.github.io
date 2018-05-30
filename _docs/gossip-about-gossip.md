@@ -53,7 +53,6 @@ Each event contains the following:
     <tr>
       <td>Hash 2:</td>
       <td align="left">Other-parent hash</td>
-      <td align="left">
     </tr>
     <tr>
       <td>Digital Signature:</td>
