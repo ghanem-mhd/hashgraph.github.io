@@ -34,8 +34,8 @@ The history of how these events are related to each other through their parent h
 Each event contains the following:
 * Timestamp
 * Two hashes of two events below itself
-* Self-parent
-* Other-parent
+	* Self-parent
+	* Other-parent
 * Transactions
 * Digital signature 
 
