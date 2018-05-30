@@ -28,5 +28,15 @@ Consensus algorithms typically make the following assumptions:
 * A segment of the members in the community will respond
 * A segment of the members are required to respond to reach consensus
 
+The goal of a consensus algorithm is to achieve reliability of data transmitted in a network of members whose interests may not align while mitigating the faults of the network.
+
+### Alternative Consensus Mechanisms
+
+| Consensus Mechanism | Description                                                                                                                                     | Examples                                              |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| Leader-based        | Advantages: *Low computation requirements *Immutable audit *Moderate throughput (1000s of tps, seconds latency) *Fault tolerant  Disadvantages: | *Hyperledger Fabric *R3 Corda *EOS *IOTA *EEA *Quorum |
+|                     |                                                                                                                                                 |                                                       |
+|                     |                                                                                                                                                 |                                                       |
+|                     |                                                                                                                                                 |                                                       |
 
 
