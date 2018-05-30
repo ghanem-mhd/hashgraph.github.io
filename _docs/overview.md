@@ -2,6 +2,14 @@
 title: Overview
 permalink: /docs/overview/
 ---
+
+## Overview
+
+In this module we will cover:
+	*Consensus
+	*Alternative Consensus Mechanisms
+	*Hashgraph Consensus Algorithm
+
 ### Consensus
 
 Modern computing is becoming more distributed. Modern computing is becoming more distributed. Distributed systems provide 
