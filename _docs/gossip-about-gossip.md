@@ -42,11 +42,11 @@ Each event contains the following:
   <tbody>
     <tr>
       <td> <b>Timestamp:</b></td>
-      <td align="center">The timestamp of when the member created the event commemorating the gossip sync.</td>
+      <td align="center">The timestamp of when the member created the event commemorating the gossip sync</td>
     </tr>
     <tr>
       <td><b>Transactions:</b></td>
-      <td align="Left"> The event can hold zero or more transactions. </td>
+      <td align="Left"> The event can hold zero or more transactions</td>
     </tr>
     <tr>
       <td><b>Hash 1:</b></td>
