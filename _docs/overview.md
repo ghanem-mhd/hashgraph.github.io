@@ -41,7 +41,7 @@ The goal of a consensus algorithm is to achieve reliability of data transmitted 
     </tr>
     <tr>
       <td>Leader-based</td>
-      <td align="center">
+      <td align="Left">
       Advantages:
       	<ul>
       		<li>Byzantine</li>
@@ -71,7 +71,7 @@ The goal of a consensus algorithm is to achieve reliability of data transmitted 
     </tr>
     <tr>
       <td>Proof-of-work based</td>
-      <td align="center">Advantages:</td>
+      <td align="left">Advantages:</td>
       <td align="left">
       	<ul> 
       		<li>Ethereum</li>
@@ -81,12 +81,12 @@ The goal of a consensus algorithm is to achieve reliability of data transmitted 
     </tr>
     <tr>
       <td>Economy-based</td>
-      <td align="center">Advantages:</td>
+      <td align="left">Advantages:</td>
       <td align="left">$1</td>
     </tr>
     <tr>
       <td>Voting-based</td>
-      <td align="center">Advantages:
+      <td align="left">Advantages:
       	<ul>
       	  <li> 
       </td>
