@@ -5,7 +5,7 @@ permalink: /docs/gossip-about-gossip/
 
 ## Gossip about gossip: The hashgraph
 
-In this module we will cover:
+#### In this module we will cover:
 
 * Gossip & Events
 * Gossip about gossip

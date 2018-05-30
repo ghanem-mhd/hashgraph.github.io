@@ -5,7 +5,8 @@ permalink: /docs/overview/
 
 ## Overview
 
-In this module we will cover:
+#### In this module we will cover:
+
 * Consensus
 * Hashgraph Consensus Algorithm
 * Permissioned vs. Permissionless Networks
