@@ -37,7 +37,7 @@ The goal of a consensus algorithm is to achieve reliability of data transmitted 
     <tr>
       <th> Consensus Mechanism</th>
       <th align="center">Description</th>
-      <th align="right">Example</th>
+      <th align="Left">Example</th>
     </tr>
     <tr>
       <td>Leader-based</td>
