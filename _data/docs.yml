@@ -3,9 +3,9 @@
   - quickstart
   - installation
   - your-first-app
-# - title: HG101: Fundementals of Hashgraph
-#   docs:
-#   - overview
+- title: HG101: Fundementals of Hashgraph
+  docs:
+  - overview
 #   - gossip-about-gossip
 #   - virtual-voting
 #   - advantages-of-hashgraph
