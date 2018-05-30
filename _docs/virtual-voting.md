@@ -5,7 +5,7 @@ permalink: /docs/virtual-voting/
 
 ## Virtual Voting
 
-In this module we will cover:
+#### In this module we will cover:
 
 * Overview
 * Divide Rounds
