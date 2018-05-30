@@ -53,9 +53,11 @@ The goal of a consensus algorithm is to achieve reliability of data transmitted 
       </ul>
     Disadvantages:
 	<ul>
-      		<li>Poor scalability (Impractical bandwidth requirements)</li>
-		<li>Individual members can influence transaction access and order</li>
-		<li>Low throughput</li>
+		<li>Designed for ‘fault’ tolerance not ‘attack’ tolerance</li>
+		<li>Susceptible to DDoS attacks</li>
+		<li>Leader can influence transaction access and order</li>
+		<li>No fair timestamps</li>
+		<li>Low scalability</li>
 	</ul>    
       </td>
       <td align="left"> 
@@ -71,7 +73,23 @@ The goal of a consensus algorithm is to achieve reliability of data transmitted 
     </tr>
     <tr>
       <td>Proof-of-work based</td>
-      <td align="left">Advantages:</td>
+      <td align="left">
+      Advantages:
+      	<ul>
+		<li>Immutable audit</li>
+		<li>DDoS resilient</li>
+		<li>High throughput possible</li>
+		<li>Scalability</li>
+      </ul>
+    Disadvantages:
+    	<ul>
+		<li>High computation requirements</li>
+		<li>Firewall partitioning attacks</li>
+		<li>Coarse-grained timestamps</li>
+		<li>A miner can influence timestamps</li>
+		<li>A miner can influence transaction access and order</li>
+	</ul>  
+      </td>
       <td align="left">
       	<ul> 
       		<li>Ethereum</li>
@@ -81,14 +99,52 @@ The goal of a consensus algorithm is to achieve reliability of data transmitted 
     </tr>
     <tr>
       <td>Economy-based</td>
-      <td align="left">Advantages:</td>
-      <td align="left">$1</td>
+      <td align="left">
+      Advantages:
+      	<ul>
+		<li>Immutable audit</li>
+		<li>DDoS resilient</li>
+		<li>Low computation</li>
+		<li>High availability</li>
+      </ul>
+    Disadvantages:
+    	<ul>
+		<li>Not Byzantine</li>
+		<li>Firewall / Virus attacks</li>
+		<li>No certainty of consensus</li>
+		<li>No Fair ordering / Timestamps</li>
+		<li>Often: liquidity (must bond coins)</li>
+		<li>Often: can’t prove state to 3rd party</li>
+		<li>Often: no total order</li>
+	</ul>   
+      </td>
+      <td align="left">
+          <ul>
+		<li>Casper</li>
+		<li>IOTA</li>
+		<li>EOS</li>
+		<li>Tezos</li>
+	</ul>
+      </td>
     </tr>
     <tr>
       <td>Voting-based</td>
-      <td align="left">Advantages:
+      <td align="left">
+      Advantages:
       	<ul>
-      	  <li> 
+		<li>Byzantine</li>
+		<li>Immutable audit</li>
+		<li>DDoS resilient</li>
+		<li>Firewall / virus attack resilient</li>
+		<li>Low computation (No PoW)</li>
+		<li>High availability</li>
+      </ul>
+    Disadvantages:
+	<ul>
+      		<li>Poor scalability (Impractical bandwidth requirements)</li>
+		<li>Individual members can influence transaction access and order</li>
+		<li>Low throughput</li>
+	</ul>
       </td>
       <td align="left">
       	<ul> 
