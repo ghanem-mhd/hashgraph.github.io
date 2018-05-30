@@ -41,23 +41,23 @@ Each event contains the following:
 <table>
   <tbody>
     <tr>
-      <td>Timestamp:</td>
+      <td> <b>Timestamp:</b></td>
       <td align="center">The timestamp of when the member created the event commemorating the gossip sync.</td>
     </tr>
     <tr>
-      <td>Transactions:</td>
+      <td><b>Transactions:</b></td>
       <td align="Left"> The event can hold zero or more transactions. </td>
     </tr>
     <tr>
-      <td>Hash 1:</td>
+      <td><b>Hash 1:</b></td>
       <td align="left">Self-parent hash </td>
     </tr>
     <tr>
-      <td>Hash 2:</td>
+      <td><b>Hash 2:</b></td>
       <td align="left">Other-parent hash</td>
     </tr>
     <tr>
-      <td>Digital Signature:</td>
+      <td><b>Digital Signature:</b></td>
       <td align="left">Cryptographically signed by the creator of the event</td>
     </tr>
   </tbody>
