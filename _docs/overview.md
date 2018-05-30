@@ -41,7 +41,23 @@ The goal of a consensus algorithm is to achieve reliability of data transmitted 
     </tr>
     <tr>
       <td>Leader-based</td>
-      <td align="center">Advantages</td>
+      <td align="center">
+      Advantages:
+      	<ul>
+      		<li>Byzantine</li>
+		<li>Immutable audit</li>
+		<li>DDoS resilient</li>
+		<li>Firewall / virus attack resilient</li>
+		<li>Low computation (No PoW)</li>
+		<li>High availability</li>
+      </ul>
+    Disadvantages:
+	<ul>
+      		<li>Poor scalability (Impractical bandwidth requirements)</li>
+		<li>Individual members can influence transaction access and order</li>
+		<li>Low throughput</li>
+	</ul>    
+      </td>
       <td align="left"> 
       	<ul> 
       		<li>Hyperledger Fabric</li>
@@ -55,7 +71,7 @@ The goal of a consensus algorithm is to achieve reliability of data transmitted 
     </tr>
     <tr>
       <td>Proof-of-work based</td>
-      <td align="center">Advantages</td>
+      <td align="center">Advantages:</td>
       <td align="left">
       	<ul> 
       		<li>Ethereum</li>
@@ -65,18 +81,20 @@ The goal of a consensus algorithm is to achieve reliability of data transmitted 
     </tr>
     <tr>
       <td>Economy-based</td>
-      <td align="center">Advantages</td>
+      <td align="center">Advantages:</td>
       <td align="left">$1</td>
     </tr>
     <tr>
-      <td>
-        <ul>
-          <li>item1</li>
-          <li>item2</li>
-        </ul>
+      <td>Voting-based</td>
+      <td align="center">Advantages:
+      	<ul>
+      	  <li> 
       </td>
-      <td align="center">Advantages</td>
-      <td align="right">from the first column</td>
+      <td align="left">
+      	<ul> 
+      	  <li>None</li>
+	</ul>        
+      </td>
     </tr>
   </tbody>
 </table>
