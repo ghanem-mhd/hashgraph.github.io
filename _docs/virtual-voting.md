@@ -40,7 +40,7 @@ Virtual voting happens in 3 steps:
 
 To begin the process of virtual voting, we must first define rounds and witnesses. In the hashgraph history, the first event for a member’s node is that node’s first **witness**. The first witness is the beginning of the first round (r) for that node. All subsequent events are part of that first round until a new witness is discovered. A witness is discovered when a node creates a new event that can **strongly see** ⅔ of the witnesses in the current round. For example, event w can strongly see event x when w can trace its ancestry through parent relationships that pass through other events that reside on at least ⅔ of the member nodes. When an event is determined to strongly see ⅔ of the witness of the current round, that event is considered the next witness for that node. That new witness is the first event in the next round (r+1) for that node. Each event is assigned a round as the event is added to the hashgraph.
 
-<img src="https://github.com/SimiHunjan/hashgraph.github.io/blob/course1/_images/image1.png " alt="hashgraph" width="600" height="400">
+<img src="https://github.com/SimiHunjan/hashgraph.github.io/blob/course1/_images/image1.png " alt="hashgraph" width="800" height="300">
 
 
 ### Decide Fame
