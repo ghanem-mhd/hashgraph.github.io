@@ -29,7 +29,7 @@ The history of how these events are related to each other through their parent h
 “These hashgraphs may be slightly different at any given moment, but they will always be consistent. Consistent means that if [Alice] and [Bob] both contain event x, then they will both contain exactly the same set of ancestors for x, and will both contain exactly the same set of edges between those ancestors.” (cite WP)
 
 ![alt text](https://github.com/SimiHunjan/hashgraph.github.io/blob/course1/_images/image1.png "image2")
-<img src="https://github.com/SimiHunjan/hashgraph.github.io/blob/course1/_images/image1.png" width="20">
+<img src="https://github.com/SimiHunjan/hashgraph.github.io/blob/course1/_images/image1.png" width="10">
 
 Each event contains the following:
 * Timestamp
