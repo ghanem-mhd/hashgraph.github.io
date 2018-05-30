@@ -168,6 +168,6 @@ A **permissioned network** restricts access to which members can host nodes on t
 In a **permissionless network**, any member can voluntarily join the network and participate in calculating consensus. Examples of permissionless networks are the 
 Bitcoin and Ethereum blockchains, where any user can join the network and participate in calculating consensus. All members can access and view the public ledger. 
 
-The hashgraph consensus algorithm can be implemented in both a permissioned and permissionless configuration. The Swirlds software development kit (SDK) is the permissioned network implementation of the hashgraph consensus algorithm. Hedera is the public ledger that implements the hashgraph algorithm in a permissionless environment.Quiz 1: Overview
+The hashgraph consensus algorithm can be implemented in both a permissioned and permissionless configuration. The Swirlds software development kit (SDK) is the permissioned network implementation of the hashgraph consensus algorithm. Hedera is the public ledger that implements the hashgraph algorithm in a permissionless environment.
 
 
