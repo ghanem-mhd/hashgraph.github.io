@@ -32,11 +32,52 @@ The goal of a consensus algorithm is to achieve reliability of data transmitted 
 
 ### Alternative Consensus Mechanisms
 
-| Consensus Mechanism | Description                                                                                                                                     | Examples                                              |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| Leader-based        | Advantages: *Low computation requirements *Immutable audit *Moderate throughput (1000s of tps, seconds latency) *Fault tolerant  Disadvantages: | *Hyperledger Fabric *R3 Corda *EOS *IOTA *EEA *Quorum |
-|                     |                                                                                                                                                 |                                                       |
-|                     |                                                                                                                                                 |                                                       |
-|                     |                                                                                                                                                 |                                                       |
-
+<table>
+  <tbody>
+    <tr>
+      <th> Consensus Mechanism</th>
+      <th align="center">Description</th>
+      <th align="right">Example</th>
+    </tr>
+    <tr>
+      <td>Leader-based</td>
+      <td align="center">Advantages</td>
+      <td align="right"> 
+      	<ul> 
+      		<li>Hyperledger Fabric</li>
+		<li>R3 Corda</li>
+		<li>EOS</li>
+		<li>IOTA</li>
+		<li>EEA</li>
+		<li>Quorum</li>
+	</ul>
+ </td>
+    </tr>
+    <tr>
+      <td>Proof-of-work based</td>
+      <td align="center">Advantages</td>
+      <td align="right">
+      	<ul> 
+      		<li>Ethereum</li>
+		<li>Bitcoin</li>
+	</ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Economy-based</td>
+      <td align="center">Advantages</td>
+      <td align="right">$1</td>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>item1</li>
+          <li>item2</li>
+        </ul>
+      </td>
+      <td align="center">Advantages</td>
+      <td align="right">from the first column</td>
+    </tr>
+  </tbody>
+</table>
 
