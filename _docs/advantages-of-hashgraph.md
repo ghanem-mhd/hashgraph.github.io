@@ -2,8 +2,9 @@
 title: Advantages of hashgraph
 permalink: /docs/advantages-of-hashgraph/
 ---
+## Advantages of hashgraph
 
-In this module we will cover:
+#### In this module we will cover:
 
 * Performance
 * Security
