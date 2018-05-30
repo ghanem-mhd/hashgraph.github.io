@@ -7,8 +7,8 @@ permalink: /docs/overview/
 
 In this module we will cover:
 * Consensus
-* Alternative Consensus Mechanisms
 * Hashgraph Consensus Algorithm
+* Permissioned vs. Permissionless Networks
 
 ### Consensus
 
@@ -169,7 +169,7 @@ The goal of a consensus algorithm is to achieve reliability of data transmitted 
 
 The hashgraph consensus algorithm enables distributed consensus in an innovative way. Hashgraph is a distributed consensus algorithm that is fast, fair, and secure.  This indirectly creates a trusted community, even when members do not necessarily trust each other. 
 
-**Permissioned vs. Permissionless Networks**
+### Permissioned vs. Permissionless Networks
 
 A **permissioned network** restricts access to which members can host nodes on the network. Only trusted members can join the network and all members are known at all times. The permissioned hashgraph network is an attractive solution for enterprises that wish to share data with known parties whose interests may not perfectly align. 
 
