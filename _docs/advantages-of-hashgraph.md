@@ -12,7 +12,7 @@ In this module we will cover:
 
 ### Performance
 
-**Cost
+**Cost**
 
 The hashgraph is inexpensive, in the sense of avoiding proof-of-work. Individuals and organizations running hashgraph nodes do not need to purchase expensive custom mining rigs. Instead, they can run readily available, cost-effective hardware. The hashgraph is 100% efficient, wasting no resources on computations that slow it down (cite WP).
 
