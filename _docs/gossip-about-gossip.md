@@ -39,8 +39,8 @@ Each event contains the following:
 <table>
   <tbody>
     <tr>
-      <th>Timestamp:</th>
-      <th align="center">The timestamp of when the member created the event commemorating the gossip sync.</th>
+      <td>Timestamp:</td>
+      <td align="center">The timestamp of when the member created the event commemorating the gossip sync.</td>
     </tr>
     <tr>
       <td>Transactions:</td>
