@@ -6,9 +6,9 @@ permalink: /docs/overview/
 ## Overview
 
 In this module we will cover:
-	*Consensus
-	*Alternative Consensus Mechanisms
-	*Hashgraph Consensus Algorithm
+* Consensus
+* Alternative Consensus Mechanisms
+* Hashgraph Consensus Algorithm
 
 ### Consensus
 
