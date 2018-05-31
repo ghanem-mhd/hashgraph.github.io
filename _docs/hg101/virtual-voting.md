@@ -1,6 +1,6 @@
 ---
 title: Virtual Voting
-permalink: /docs/virtual-voting/
+permalink: /docs/hg101/virtual-voting/
 ---
 
 ## Virtual Voting

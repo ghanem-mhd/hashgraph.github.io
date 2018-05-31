@@ -5,10 +5,10 @@
   - your-first-app
 - title: "HG101: Fundementals of Hashgraph"
   docs:
-  - overview
-  - gossip-about-gossip
-  - virtual-voting
-  - advantages-of-hashgraph
+  - hg101/overview
+  - hg101/gossip-about-gossip
+  - hg101/virtual-voting
+  - hg101/advantages-of-hashgraph
 # - title: HH101: Introduction to Hedera Hashgraph
 #   docs:
 - title: References
