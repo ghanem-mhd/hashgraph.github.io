@@ -3,6 +3,8 @@ title: Platform
 permalink: /docs/platform/
 ---
 
+## Platform
+
 ### What is the Platform Class?
 
 > public final class **Platform** extends java.lang.object
@@ -144,6 +146,7 @@ permalink: /docs/platform/
 > Get the ID of the current swirld. A given app can be used to create many different swirlds (also called networks, or ledgers, or shared worlds). This is a unique identifier for this particular swirld.
 
 > ##### Returns:
+>
 > * a copy of the swirld ID
 
 > ---
@@ -155,6 +158,7 @@ permalink: /docs/platform/
 > Get the Statistics object that monitors and reports on the network and syncing.
 
 > ##### Returns:
+>
 > * the Statistics object associated with this Platform
 
 > ---
@@ -166,6 +170,7 @@ permalink: /docs/platform/
 > Get the number of milliseconds the Platform should delay after each gossip sync it initiates. This is zero by default, but can be changed to slow down the system. This can be useful for testing.
 
 > ##### Returns:
+>
 > * the delay in milliseconds
 
 > ---
@@ -177,6 +182,7 @@ permalink: /docs/platform/
 > Set the number of milliseconds the Platform should delay after each gossip sync it initiates. This is zero by default, but can be changed to slow down the system. This can be useful for testing.
 
 > ##### Parameters:
+>
 > * delay - the delay in milliseconds
 
 > ---
@@ -188,6 +194,7 @@ permalink: /docs/platform/
 > The SwirldMain calls this to set the string that is shown when the user chooses "About" from the Swirlds menu in the upper-right corner of the window. It is recommended that this be a short string that includes the name of the app, the version number, and the year.
 
 > ##### Parameters:
+>
 > * about - what should show in the "about" window from the menu
 
 > ---
@@ -199,6 +206,7 @@ permalink: /docs/platform/
 > returns the latest version of the "about" string from the app.
 
 > ##### Returns:
+>
 > * the "about" string for this app
 
 > ---
@@ -210,6 +218,7 @@ permalink: /docs/platform/
 > Get any parameters that were given to the platform at startup, such as in the config.txt file.
 
 > ##### Returns:
+>
 > * the parameters
 
 > ---
@@ -227,9 +236,11 @@ permalink: /docs/platform/
 > A transaction can be at most 1024 bytes. If trans.length > 1024, then this will return false, and will not actually create a transaction.
 
 > ##### Parameters:
+>
 > * trans - the transaction to handle, encoded any way the swirld author chooses
 
 > ##### Returns:
+>
 > * true if successful
 
 > ---
@@ -241,6 +252,7 @@ permalink: /docs/platform/
 > Find a rough estimate of what consensus timestamp a transaction would eventually have, if it were created right now through a call to createTransaction(). A real-time app, such as a game, will typically redraw the screen by first calling estTime(), then rendering everything to the screen reflecting the predicted state as it will be at this time.
 
 > ##### Returns:
+>
 > * the estimated time
 
 > ---
@@ -254,6 +266,7 @@ permalink: /docs/platform/
 > The SwirldMain must ensure that every access to the State object is synchronized on that object. So either the State should be written with methods such as getters and setters marked as "synchronized", or the SwirldMain object should be written so that every time it reads from the state, it does so within a synchronized(...){...} block.
 
 > ##### Returns:
+>
 > * the current state
 
 > ---
@@ -265,6 +278,7 @@ permalink: /docs/platform/
 > Get an array of all the events in the hashgraph. This method is slow, so do not call it very often. The returned array is a shallow copy, so the caller may change it, and no other threads will change it. However, the events it references may have fields that are changed by other threads, and must not be changed by the caller. The array will contain first the consensus events (in consensus order), then the non-consensus events (sorted by time received).
 
 > ##### Returns:
+>
 > * an array of all the events
 
 > ---
@@ -276,6 +290,7 @@ permalink: /docs/platform/
 > Get the Address for the member running this Platform.
 
 > ##### Returns:
+>
 > * the Address
 
 > ---
@@ -287,9 +302,11 @@ permalink: /docs/platform/
 > Create a new window with a text console, of the recommended size and location, including the Swirlds menu.
 
 > ##### Parameters:
+>
 > * visible - should the window be initially visible? If not, call setVisible(true) later.
 
 > ##### Returns:
+>
 > * the new window
 
 > ---
@@ -301,9 +318,11 @@ permalink: /docs/platform/
 > Create a new window of the recommended size and location, including the Swirlds menu.
 
 > ##### Parameters:
+>
 > * visible - should the window be initially visible? If not, call setVisible(true) later.
 
 > ##### Returns:
+>
 > * the new window
 
 > ---
@@ -331,6 +350,7 @@ permalink: /docs/platform/
 > Make a beep sound.
 
 > ##### Parameters:
+>
 > * pitch - the pitch, from 0 to 127, where 60 is middle C, 61 is C#, etc.
 > * velocity - the "velocity" (volume, or speed with which the note is played). 0 is silent, 127 is max.
 > * duration - the number of milliseconds the sound will play
@@ -344,11 +364,7 @@ permalink: /docs/platform/
 > Get the number of participating members. This is the size of the current address book.
 
 > ##### Returns:
+>
 > * the number of members
-
-
-
-
-
 
 ---

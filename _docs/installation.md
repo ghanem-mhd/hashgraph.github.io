@@ -3,6 +3,8 @@ title: Installation
 permalink: /docs/installation/
 ---
 
+## Installation
+
 ### Pre-requisites
 
 * Java Development Kit (JDK) 8
@@ -28,7 +30,7 @@ permalink: /docs/installation/
 * Unzip the downloaded SDK zip file
 * Run the SDK using `java -jar swirlds.jar`
 
-Congratulations! You are now running the Swirlds SDK with 4 local nodes. 
+Congratulations! You are now running the Swirlds SDK with 4 local nodes.
 
     HINT: Explore the config.txt file included in the SDK
 

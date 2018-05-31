@@ -30,14 +30,14 @@ The history of how these events are related to each other through their parent h
 
 <img src="https://github.com/SimiHunjan/hashgraph.github.io/blob/course1/_images/image2.png " alt="hashgraph" width="400" height="250">
 
-
 Each event contains the following:
+
 * Timestamp
 * Two hashes of two events below itself
-	* Self-parent
-	* Other-parent
+  _ Self-parent
+  _ Other-parent
 * Transactions
-* Digital signature 
+* Digital signature
 
 <table>
   <tbody>
