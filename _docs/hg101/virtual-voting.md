@@ -53,3 +53,5 @@ Now that we have calculated the all witnesses of a round to be famous or not fam
 1. the **round received** for all events that have yet to be ordered and that have occured before a round where the fame of all witnesses has been decided. The event’s round received is the first round where all famous witnesses of that round can see (or are descendants of) the event in question
 2. the **timestamp** for each event. This is done by gathering the earliest ancestors of the famous witnesses of the round received that are also descendants of the event in question, and taking the median timestamp of those gathered events.
 3. the **ordering of events** first by: round received, consensus timestamp, then whitenened signature
+
+[Next Step: Advangages of hashgraph](/docs/advantages-of-hashgraph){:.Btn.next}

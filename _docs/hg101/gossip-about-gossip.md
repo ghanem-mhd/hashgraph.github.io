@@ -63,3 +63,5 @@ Each event contains the following:
     </tr>
   </tbody>
 </table>
+
+[Next Step: Virtual Voting](/docs/virtual-voting){:.Btn.next}

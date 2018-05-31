@@ -64,3 +64,21 @@
     width: auto;
   }
 }
+
+.content table {
+  border-left: 1px solid rgba($color-dark-grey, 0.12);
+  border-top: 1px solid rgba($color-dark-grey, 0.12);
+  padding: 0;
+  th {
+    background-color: rgba($color-dark-grey, 0.12);
+  }
+  td,
+  th {
+    margin: 0;
+    padding: 5px;
+    border-bottom: 1px solid rgba($color-dark-grey, 0.12);
+    border-right: 1px solid rgba($color-dark-grey, 0.12);
+    vertical-align: top;
+    text-align: left;
+  }
+}
