@@ -12,7 +12,7 @@ permalink: /docs/installation/
 
 #### Install the latest JDK 8
 
-* Visit ??? to get the latest JDK 8
+* Get the latest JDK 8
 * Install JDK 8
 * Confirm that JDK 8 is the running version of Java
 
@@ -24,13 +24,11 @@ permalink: /docs/installation/
 
 #### Running the SDK
 
-* Download the SDK from ???
+* Download the SDK from [https://www.swirlds.com/download/](https://www.swirlds.com/download/)
 * Unzip the downloaded SDK zip file
 * Run the SDK using `java -jar swirlds.jar`
 
-Congradulations! You are now running the Swirlds SDK with 4 local nodes. You should see the following screen:
-
-???IMAGE OF RUNNING SWIRLDS BROWSER???
+Congratulations! You are now running the Swirlds SDK with 4 local nodes. 
 
     HINT: Explore the config.txt file included in the SDK
 
