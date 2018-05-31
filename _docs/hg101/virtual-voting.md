@@ -54,4 +54,4 @@ Now that we have calculated the all witnesses of a round to be famous or not fam
 2. the **timestamp** for each event. This is done by gathering the earliest ancestors of the famous witnesses of the round received that are also descendants of the event in question, and taking the median timestamp of those gathered events.
 3. the **ordering of events** first by: round received, consensus timestamp, then whitenened signature
 
-[Next Step: Advangages of hashgraph](/docs/advantages-of-hashgraph){:.Btn.next}
+[Next Step: Advangages of hashgraph](/docs/hg101/advantages-of-hashgraph){:.Btn.next}

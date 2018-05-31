@@ -64,4 +64,4 @@ Each event contains the following:
   </tbody>
 </table>
 
-[Next Step: Virtual Voting](/docs/virtual-voting){:.Btn.next}
+[Next Step: Virtual Voting](/docs/hg101/virtual-voting){:.Btn.next}

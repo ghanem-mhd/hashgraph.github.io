@@ -179,4 +179,4 @@ Bitcoin and Ethereum blockchains, where any user can join the network and partic
 
 The hashgraph consensus algorithm can be implemented in both a permissioned and permissionless configuration. The Swirlds software development kit (SDK) is the permissioned network implementation of the hashgraph consensus algorithm. Hedera is the public ledger that implements the hashgraph algorithm in a permissionless environment.
 
-[Next Step: Gossip about Gossip](/docs/gossip-about-gossip){:.Btn.next}
+[Next Step: Gossip about Gossip](/docs/hg101/gossip-about-gossip){:.Btn.next}
