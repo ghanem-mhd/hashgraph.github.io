@@ -1,6 +1,6 @@
 ---
-title: SwirldsMain
-permalink: /docs/swirldsmain/
+title: SwirldMain
+permalink: /docs/swirldmain/
 ---
 
 > ##### All Superinterfaces:
@@ -25,7 +25,7 @@ permalink: /docs/swirldsmain/
 
 > ---
 
-> **[SwirldState](/docs/swirldsstate) newState**()
+> **[SwirldState](/docs/swirldstate) newState**()
 
 > > _Instantiate and return a SwirldState object that corresponds to this SwirldMain object_
 
@@ -101,7 +101,7 @@ permalink: /docs/swirldsmain/
 
 > #### newState
 
-> **[SwirldState](/docs/swirldsstate) newState**()
+> **[SwirldState](/docs/swirldstate) newState**()
 
 > Instantiate and return a SwirldState object that corresponds to this SwirldMain object. Typically, if class ExampleMain implements SwirldMain, then newState will return an object of class ExampleMain.
 
@@ -111,4 +111,4 @@ permalink: /docs/swirldsmain/
 
 ---
 
-[Next Step: SwirldState](/docs/swirldsstate){:.Btn.next}
+[Next Step: SwirldState](/docs/swirldstate){:.Btn.next}

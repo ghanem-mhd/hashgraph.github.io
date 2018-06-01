@@ -1,6 +1,6 @@
 ---
-title: SwirldsState
-permalink: /docs/swirldsstate/
+title: SwirldState
+permalink: /docs/swirldstate/
 ---
 
 > ##### All Superinterfaces:
@@ -17,14 +17,14 @@ permalink: /docs/swirldsstate/
 
 > public interface **SwirldState** extends FastCopyable
 
-> A Swirld app is defined by creating two classes, one implementing **[SwirldMain](/docs/swirldsmain)**, and the other **SwirldState**, such that:
+> A Swirld app is defined by creating two classes, one implementing **[SwirldMain](/docs/swirldmain)**, and the other **SwirldState**, such that:
 
 > * **SwirldState** has a no-argument constructor (called by **[Platform](/docs/platform)**)
 > * All **SwirldState** variables are thread-safe and private
 > * All **SwirldState** methods are synchronized
-> * **[SwirldMain](/docs/swirldsmain)** never modifies an object in SwirldState
+> * **[SwirldMain](/docs/swirldmain)** never modifies an object in SwirldState
 
-> So, if **SwirldState** contains an array, and **[SwirldMain](/docs/swirldsmain)** gets it through a getter method, then the developer is responsible for making sure **[SwirldMain](/docs/swirldsmain)** never changes the contents of that array. Or the getter can simply return a deep copy of the array instead of the original.
+> So, if **SwirldState** contains an array, and **[SwirldMain](/docs/swirldmain)** gets it through a getter method, then the developer is responsible for making sure **[SwirldMain](/docs/swirldmain)** never changes the contents of that array. Or the getter can simply return a deep copy of the array instead of the original.
 
 ---
 
