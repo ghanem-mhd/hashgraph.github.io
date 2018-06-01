@@ -34,17 +34,22 @@
     margin-top: 3em;
     font-weight: 500;
   }
-  pre,
-  code {
-    font-family: $font-mono;
-    font-size: 0.9em;
-  }
+  // pre,
+  // code {
+  //   font-family: $font-mono;
+  //   font-size: 0.9em;
+  // }
+  //
+  // code {
+  //   background-color: rgba(#dadada, 0.4);
+  //   padding: 0.4em;
+  //   border-radius: 3px;
+  //   color: $color-black;
+  // }
 
-  code {
-    background-color: rgba(#dadada, 0.4);
-    padding: 0.4em;
-    border-radius: 3px;
-    color: $color-black;
+  .hljs {
+    padding-left: 10px;
+    font-family: $font-mono;
   }
 
   hr {
