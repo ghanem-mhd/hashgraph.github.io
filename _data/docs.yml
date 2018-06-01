@@ -11,9 +11,9 @@
 #   - virtual-voting
 - title: References
   docs:
-  - swirldsmain
-  - swirldsstate
   - platform
+  - swirldmain
+  - swirldstate
 # - title: Papers
 #   docs:
 #   - whitepaper
