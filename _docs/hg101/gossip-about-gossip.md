@@ -5,7 +5,7 @@ permalink: /docs/hg101/gossip-about-gossip/
 
 ## Gossip about gossip: The hashgraph
 
-#### In this module we will cover:
+#### Topics:
 
 * Gossip & Events
 * Gossip about gossip
