@@ -5,7 +5,7 @@ permalink: /docs/hg101/overview/
 
 ## Overview
 
-#### In this module we will cover:
+#### Topics:
 
 * Consensus
 * Hashgraph Consensus Algorithm
