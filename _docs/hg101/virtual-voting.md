@@ -5,7 +5,7 @@ permalink: /docs/hg101/virtual-voting/
 
 ## Virtual Voting
 
-#### In this module we will cover:
+#### Topics:
 
 * Overview
 * Divide Rounds
