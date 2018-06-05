@@ -3,7 +3,8 @@
   - quickstart
   - installation
   - your-first-app
-- title: Principles 
+- title: Principles
+  docs:
   - hg101/overview
   - hg101/gossip-about-gossip
   - hg101/virtual-voting
