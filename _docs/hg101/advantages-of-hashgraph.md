@@ -5,7 +5,7 @@ permalink: /docs/hg101/advantages-of-hashgraph/
 
 ## Advantages of hashgraph
 
-#### In this module we will cover:
+#### Topics:
 
 * Performance
 * Security
