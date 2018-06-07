@@ -34,17 +34,22 @@
     margin-top: 3em;
     font-weight: 500;
   }
-  pre,
-  code {
-    font-family: $font-mono;
-    font-size: 0.9em;
-  }
+  // pre,
+  // code {
+  //   font-family: $font-mono;
+  //   font-size: 0.9em;
+  // }
+  //
+  // code {
+  //   background-color: rgba(#dadada, 0.4);
+  //   padding: 0.4em;
+  //   border-radius: 3px;
+  //   color: $color-black;
+  // }
 
-  code {
-    background-color: rgba(#dadada, 0.4);
-    padding: 0.4em;
-    border-radius: 3px;
-    color: $color-black;
+  .hljs {
+    padding-left: 10px;
+    font-family: $font-mono;
   }
 
   hr {
@@ -62,5 +67,23 @@
   @include big {
     display: inline-block;
     width: auto;
+  }
+}
+
+.content table {
+  border-left: 1px solid rgba($color-dark-grey, 0.12);
+  border-top: 1px solid rgba($color-dark-grey, 0.12);
+  padding: 0;
+  th {
+    background-color: rgba($color-dark-grey, 0.12);
+  }
+  td,
+  th {
+    margin: 0;
+    padding: 5px;
+    border-bottom: 1px solid rgba($color-dark-grey, 0.12);
+    border-right: 1px solid rgba($color-dark-grey, 0.12);
+    vertical-align: top;
+    text-align: left;
   }
 }

@@ -29,3 +29,4 @@ exclude:
 - ".gitignore"
 - CNAME
 - readme.md
+- _js/node_modules

@@ -3,12 +3,12 @@
   - quickstart
   - installation
   - your-first-app
-# - title: Principles
-#   docs:
-#   - overview
-#   - architecture
-#   - gossip-about-gossip
-#   - virtual-voting
+- title: Principles
+  docs:
+  - hg101/overview
+  - hg101/gossip-about-gossip
+  - hg101/virtual-voting
+  - hg101/advantages-of-hashgraph
 - title: References
   docs:
   - platform
