@@ -33,5 +33,3 @@ permalink: /docs/installation/
 Congratulations! You are now running the Swirlds SDK with 4 local nodes.
 
     HINT: Explore the config.txt file included in the SDK
-
-[Next Step: Your First App](/docs/your-first-app){:.Btn.next}
