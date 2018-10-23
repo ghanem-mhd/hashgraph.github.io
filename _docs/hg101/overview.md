@@ -13,7 +13,7 @@ permalink: /docs/hg101/overview/
 
 ### Consensus
 
-Modern computing is becoming more distributed. Modern computing is becoming more distributed. Distributed systems provide
+Modern computing is becoming more distributed. Distributed systems provide
 scalability, availability, and reliability. With the emergence of distributed ledger technologies (DLT), systems can now be distributed and
 shared between parties whose interests may not align. In order to support such a system, algorithms are designed and implemented to
 ensure that all parties can reliably come to an agreement, or consensus, about the state of the system, while maintaining resilience
