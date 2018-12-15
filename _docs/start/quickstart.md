@@ -1,6 +1,9 @@
 ---
-layout: default
+title: Quickstart
+permalink: /docs/start/quickstart/
 ---
+
+## Quickstart
 
 ### What is Hashgraph?
 

@@ -1,6 +1,6 @@
 ---
 title: Overview
-permalink: /docs/hg101/overview/
+permalink: /docs/principles/overview/
 ---
 
 ## Overview

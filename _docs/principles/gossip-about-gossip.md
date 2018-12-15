@@ -1,6 +1,6 @@
 ---
 title: Gossip About Gossip
-permalink: /docs/hg101/gossip-about-gossip/
+permalink: /docs/principles/gossip-about-gossip/
 ---
 
 ## Gossip about gossip: The hashgraph

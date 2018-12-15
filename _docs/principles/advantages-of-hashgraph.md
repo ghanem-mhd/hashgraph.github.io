@@ -1,6 +1,6 @@
 ---
 title: Advantages of hashgraph
-permalink: /docs/hg101/advantages-of-hashgraph/
+permalink: /docs/principles/advantages-of-hashgraph/
 ---
 
 ## Advantages of hashgraph
