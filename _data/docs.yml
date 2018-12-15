@@ -1,22 +1,14 @@
 - title: Getting Started
   docs:
-  - quickstart
-  - installation
-- title: Principles
+  - start/quickstart
+  - start/getting-testnet-access
+  - start/configuring-environment
+  - start/creating-keys
+  - start/zero-to-micropay
+- title: Hashgraph Principles
   docs:
-  - hg101/overview
-  - hg101/gossip-about-gossip
-  - hg101/virtual-voting
-  - hg101/advantages-of-hashgraph
-- title: References
-  docs:
-  - platform
-  - swirldmain
-  - swirldstate
-# - title: Papers
-#   docs:
-#   - whitepaper
-#   - how-it-works
-#   - hashgraph-overview
-#   - sybil-attacks
-#   - ddb
+  - principles/overview
+  - principles/gossip-about-gossip
+  - principles/virtual-voting
+  - principles/advantages-of-hashgraph
+
